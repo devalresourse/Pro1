@@ -1,18 +1,12 @@
-#print eath item in list
+x = 10
+while x > 0:
+#'this method is simple'
+    print(x)
+#'this method2 is standard can also be script as print({}.format(x))'
+    x -= 1
+print("Happy Thanksgiving")
 
-pan = ["The Walking Dead", "Entourage", "The Sopranos", "The Vampire Diaries"]
-for pan in pan:
-    print(pan)
-
-#range
-
-for num in range(25,50):
-    print(num)
-
-pan = ["The Walking Dead", "Entourage", "The Sopranos", "The Vampire Diaries"]
-for index, show in enumerate(pan):
-    print(index)
-    print(pan)
-
-
+for i in range(1,10):
+    print(i)
+    break
 
